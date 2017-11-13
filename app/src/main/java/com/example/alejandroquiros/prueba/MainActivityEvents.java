@@ -29,5 +29,11 @@ public class MainActivityEvents implements View.OnClickListener{
             mainActivity.startActivity(intent);
             mainActivity.finish();
         }
+        if(view.getId() == R.id.siguiente) {
+
+        }
+        if(view.getId() == R.id.anterior) {
+
+        }
     }
 }
