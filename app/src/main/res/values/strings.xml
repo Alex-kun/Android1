@@ -7,4 +7,6 @@
     <string name="telefono">Telefono</string>
     <string name="direccion">Direccion</string>
     <string name="perfil">Perfil</string>
+    <string name="titulo">Titulo</string>
+    <string name="texto">Texto</string>
 </resources>
