@@ -30,7 +30,7 @@ public class MainActivityEvents implements View.OnClickListener{
             mainActivity.finish();
         }
         if(view.getId() == R.id.siguiente) {
-
+            mainActivity.title.setText("holaaaaaaa");
         }
         if(view.getId() == R.id.anterior) {
 
