@@ -11,4 +11,7 @@
     <string name="texto">Texto</string>
     <string name="siguiente">Siguiente</string>
     <string name="anterior">Anterior</string>
+    <string name="capitulo1">Anterior</string>
+    <string name="capitulo2">Anterior</string>
+    <string name="capitulo3">Anterior</string>
 </resources>
