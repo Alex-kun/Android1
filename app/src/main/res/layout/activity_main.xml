@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Capitulo Primero" />
+            android:text="@string/titulo1" />
 
         <ScrollView
             android:layout_width="match_parent"

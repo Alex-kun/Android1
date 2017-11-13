@@ -11,6 +11,7 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
 
     public Button btnMain;
+    public Button siguiente;
     public TextView title;
     public TextView text;
     private MainActivityEvents events;
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         events = new MainActivityEvents(this);
 
         btnMain = this.findViewById(R.id.btnmain);
+        siguiente = this.findViewById(R.id.siguiente);
+
         title = this.findViewById(R.id.title);
         text = this.findViewById(R.id.text);
 
@@ -36,5 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         btnMain.setOnClickListener(events);
+        siguiente.setOnClickListener(events);
     }
 }
