@@ -25,9 +25,9 @@ public class MainActivityEvents implements View.OnClickListener{
             //mainActivity.btnMain.setEnabled(false);
 
 
-            //Intent intent = new Intent(mainActivity, SecondActivity.class);
-            //mainActivity.startActivity(intent);
-            //mainActivity.finish();
+            Intent intent = new Intent(mainActivity, SecondActivity.class);
+            mainActivity.startActivity(intent);
+            mainActivity.finish();
         }
     }
 }
