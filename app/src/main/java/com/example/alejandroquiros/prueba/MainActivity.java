@@ -22,13 +22,11 @@ public class MainActivity extends AppCompatActivity {
         events = new MainActivityEvents(this);
 
         btnMain = this.findViewById(R.id.btnmain);
-        txtvHolaMundo=(TextView)this.findViewById(R.id.lblMain);
+        //txtvHolaMundo=(TextView)this.findViewById(R.id.lblMain);
         vistaUno = (LinearLayout) this.findViewById(R.id.vistaUno);
         vistaDos = (LinearLayout) this.findViewById(R.id.vistaDos);
 
 
-
-        btnMain.setText(R.string.lbl_prueba);
         btnMain.setOnClickListener(events);
     }
 }
