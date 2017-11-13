@@ -12,10 +12,12 @@ public class MainActivity extends AppCompatActivity {
 
     public Button btnMain;
     public Button siguiente;
+    public Button anterior;
     public TextView title;
     public TextView text;
     private MainActivityEvents events;
     public TextView txtvHolaMundo;
+    public int numero = 1;
 
     public LinearLayout vistaUno,vistaDos;
 
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnMain = this.findViewById(R.id.btnmain);
         siguiente = this.findViewById(R.id.siguiente);
+        anterior = this.findViewById(R.id.anterior);
 
         title = this.findViewById(R.id.title);
         text = this.findViewById(R.id.text);
@@ -40,5 +43,6 @@ public class MainActivity extends AppCompatActivity {
 
         btnMain.setOnClickListener(events);
         siguiente.setOnClickListener(events);
+        anterior.setOnClickListener(events);
     }
 }

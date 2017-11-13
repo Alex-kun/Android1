@@ -30,13 +30,34 @@ public class MainActivityEvents implements View.OnClickListener{
             mainActivity.finish();
         }
         if(view.getId() == R.id.siguiente) {
-            mainActivity.title.setText(R.string.titulo2);
-            //if(mainActivity.title.getText()){
-            //    mainActivity.title.setText(R.string.titulo2);
-            //}
+            if(mainActivity.numero == 1){
+                mainActivity.title.setText(R.string.titulo2);
+                mainActivity.text.setText(R.string.capitulo2);
+                mainActivity.numero = 2;
+            } else if(mainActivity.numero == 2){
+                mainActivity.title.setText(R.string.titulo3);
+                mainActivity.text.setText(R.string.capitulo3);
+                mainActivity.numero = 3;
+            } else if(mainActivity.numero == 3){
+                mainActivity.title.setText(R.string.titulo1);
+                mainActivity.text.setText(R.string.capitulo1);
+                mainActivity.numero = 1;
+            }
         }
         if(view.getId() == R.id.anterior) {
-
+            if(mainActivity.numero == 1){
+                mainActivity.title.setText(R.string.titulo3);
+                mainActivity.text.setText(R.string.capitulo3);
+                mainActivity.numero = 3;
+            } else if(mainActivity.numero == 2){
+                mainActivity.title.setText(R.string.titulo1);
+                mainActivity.text.setText(R.string.capitulo1);
+                mainActivity.numero = 1;
+            } else if(mainActivity.numero == 3){
+                mainActivity.title.setText(R.string.titulo2);
+                mainActivity.text.setText(R.string.capitulo2);
+                mainActivity.numero = 2;
+            }
         }
     }
 }
