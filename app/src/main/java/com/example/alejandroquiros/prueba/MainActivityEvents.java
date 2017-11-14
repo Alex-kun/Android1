@@ -17,8 +17,8 @@ public class MainActivityEvents implements View.OnClickListener{
     @Override
     public void onClick(View view) {
         if(view.getId() == R.id.btnmain){
-            mainActivity.vistaUno.setVisibility(View.GONE);
-            mainActivity.vistaDos.setVisibility(View.VISIBLE);
+            //mainActivity.vistaUno.setVisibility(View.GONE);
+            //mainActivity.vistaDos.setVisibility(View.VISIBLE);
 
             //mainActivity.txtvHolaMundo.setText("Bien");
             //mainActivity.btnMain.setVisibility(View.GONE);
