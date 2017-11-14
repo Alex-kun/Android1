@@ -16,7 +16,13 @@ public class SecondActivityEvents implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
+        if(view.getId() == R.id.backbtn){
 
+
+            Intent intent = new Intent(secondActivity, MainActivity.class);
+            secondActivity.startActivity(intent);
+            secondActivity.finish();
+        }
         }
     }
 

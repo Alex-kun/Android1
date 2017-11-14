@@ -13,5 +13,10 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+
+        editbtn = this.findViewById(R.id.editbtn);
+        backbtn = this.findViewById(R.id.backbtn);
+
+
     }
 }
