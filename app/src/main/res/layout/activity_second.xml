@@ -88,7 +88,7 @@
                     android:text="@string/email" />
 
                 <EditText
-                    android:id="@+id/editText4"
+                    android:id="@+id/InputName2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -110,7 +110,7 @@
                     android:text="@string/telefono" />
 
                 <EditText
-                    android:id="@+id/editText5"
+                    android:id="@+id/InputName3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -131,7 +131,7 @@
                     android:text="@string/direccion" />
 
                 <EditText
-                    android:id="@+id/editText6"
+                    android:id="@+id/InputName4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

@@ -4,11 +4,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
 
     public Button editbtn;
     public Button backbtn;
+    public TextView InputName;
+    public TextView InputName2;
+    public TextView InputName3;
+    public TextView InputName4;
+
     private SecondActivityEvents events;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -16,13 +16,19 @@ public class SecondActivityEvents implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-        if(view.getId() == R.id.backbtn){
+            if(view.getId() == R.id.backbtn){
+                Intent intent = new Intent(secondActivity, MainActivity.class);
+                secondActivity.startActivity(intent);
+                secondActivity.finish();
+            }
+            if(view.getId() == R.id.editbtn){
+                secondActivity.InputName.setEnabled(false);
+                secondActivity.InputName2.setEnabled(false);
+                secondActivity.InputName3.setEnabled(false);
+                secondActivity.InputName4.setEnabled(false);
 
 
-            Intent intent = new Intent(secondActivity, MainActivity.class);
-            secondActivity.startActivity(intent);
-            secondActivity.finish();
-        }
+            }
         }
     }
 
