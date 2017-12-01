@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "875290233034",
+    "firebase_url": "https://test-mac-1-623fb.firebaseio.com",
+    "project_id": "test-mac-1-623fb",
+    "storage_bucket": "test-mac-1-623fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875290233034:android:b0ec621acb955faa",
+        "android_client_info": {
+          "package_name": "com.example.miapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875290233034-c8q0gc0e8lasnnv6hrsgas8tm0sotdeo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.miapp2",
+            "certificate_hash": "5212a824589d19ca155a2770b0b06c5b74ef2fef"
+          }
+        },
+        {
+          "client_id": "875290233034-gk21cj841ba261msid15r2gukran4mhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD19Ch4067ce4oJoeoaJaNmBxHD86pne3g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875290233034-gk21cj841ba261msid15r2gukran4mhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
